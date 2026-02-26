@@ -1,6 +1,8 @@
 # Factory IO – Level Control with PID & WinCC HMI/SCADA
 
-A simulation-based industrial automation project using **Factory IO** and **Siemens WinCC (SIMATIC HMI)**, focused on real-time liquid level control with PID regulation and a fully developed 3-screen HMI interface.
+**School project** | Automation & Instrumentation studies
+
+A simulation-based project using **Factory IO** and **Siemens WinCC (SIMATIC HMI)**, focused on real-time liquid level control with PID regulation and a fully developed 3-screen HMI interface.
 
 ---
 
@@ -106,30 +108,3 @@ Factory IO (3D Level Control Simulation)
 - Built operator-facing controls (SP input, Start/Stop, Error indicator)
 - Applied industrial HMI layout principles: clear navigation, contrast, and labeling
 - Integrated a PID control loop with full operator visibility through the SCADA interface
-
----
-
-## How to Run
-
-1. Open the Factory IO scene: `Level_Control.factoryio`
-2. Connect Factory IO to S7-PLCSIM via the Siemens S7-PLCSIM driver
-3. Load the TIA Portal project and start the PLC simulation
-4. Launch WinCC Runtime to open the HMI
-5. Navigate to the Control Screen, set a Setpoint (SP), and press Start
-6. Monitor the live PID response on the Tank Screen and Data Monitor Screen
-
----
-
-## Repository Structure
-
-```
-FactoryIO-LevelControl-SCADA/
- ├── FactoryIO/              # Factory IO scene file (.factoryio)
- ├── TIA_Portal/             # PLC project (PID block + Global DB)
- ├── WinCC/                  # WinCC project (3 screens + tag config)
- └── README.md
-```
-
----
-
-*Project developed as part of automation and instrumentation studies — with emphasis on HMI/SCADA design using Siemens WinCC and SIMATIC HMI.*
